@@ -1,10 +1,26 @@
-* {
-  padding: 0;
+/* Faz o corpo ocupar 100% da altura da viewport */
+html, body, #root {
+  height: 100%;
   margin: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  padding: 0;
 }
 
-html, body, #root {
-  background-color: #efefef;
+/* Container principal da sua aplicação */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* altura total da tela */
+}
+
+/* Container que envolve o conteúdo (já no seu Container.js) */
+.min-height {
+  flex: 1; /* faz ele crescer e ocupar o espaço disponível */
+}
+
+/* Footer fica no final, sempre grudado na base */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
 }
