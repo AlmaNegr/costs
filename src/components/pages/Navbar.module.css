@@ -6,6 +6,7 @@
   display: flex;
   gap: 2rem;
   justify-content: center;
+  align-items: center;
 }
 
 .link {
@@ -16,5 +17,5 @@
 }
 
 .link:hover {
-  color: #00bcd4;
+  color: #ffbb33;
 }
