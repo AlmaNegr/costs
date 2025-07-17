@@ -4,9 +4,9 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Company from "./components/pages/Company";
 import NewProject from "./components/pages/NewProject";
-import NavBar from "./components/pages/NavBar";
+import NavBar from "./components/layout/NavBar";
 import Container from "./components/layout/Container";
-import Footer from "./components/pages/Footer"
+import Footer from "./components/layout/Footer"
 import Projects from "./components/pages/Projects";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
             <Route path="/newproject" element={<NewProject />} />
           </Routes>
         </Container>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }
