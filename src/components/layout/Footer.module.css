@@ -5,7 +5,6 @@
     text-align: center;
 }
 
-
 .social_list {
     display: flex;
     justify-content: center;
@@ -14,6 +13,8 @@
 
 .social_list li{
     margin: 0 1em;
+    
+
 }
 
 .social_list li:hover {
